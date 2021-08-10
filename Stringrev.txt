@@ -1,0 +1,16 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int arr[] = {1,3,5,7,9,31,34};
+		int x = 0;
+		while(x<arr.length) {
+		    if(arr[x]>=20){
+		       System.exit(0);  
+		    }
+		    else {
+		       System.out.println(arr[x]);
+		    }
+		    x++;
+		}
+	}
+}
